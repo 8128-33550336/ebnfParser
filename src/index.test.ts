@@ -464,7 +464,7 @@ describe('text obj', () => {
             });
             test('parse', () => {
                 const c = parse(stringWithParser, '"\\\\\\"\\n"');
-                expect(c).toBe('\\\"\n');
+                expect(c).toBe('\\"\n');
             });
         });
         describe('json', () => {
